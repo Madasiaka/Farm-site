@@ -2217,7 +2217,7 @@ input, select, textarea {
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
-			color: #fff;
+			color: #000;
 		}
 
 			.wrapper.style2 input[type="button"]:hover,
@@ -3362,9 +3362,15 @@ section#imgsEven img{
 }
 
 a#address{
-	text-shadow: 1px 1px black;
+	text-shadow: 1px 1px white;
 }
 
 .row.flexHelp{
 	align-items: flex-start;
+}
+.row.flexHelp span {
+	margin: 1em;
+}
+.row.flexHelp a.button {
+	line-height: 1.5;
 }
